@@ -27,3 +27,23 @@
 
 	&:hover
 		color: $mainColor
+
+.search__input
+	border: none
+	background: #f5f5f5
+	padding: rem(4px)
+	border-radius: 15px 0 0 15px
+	max-width: 0
+	opacity: 0
+	transition: .5s
+
+	&.show
+		max-width: 200px
+		opacity: 1
+
+.search__btn
+	border: none
+	background: none
+
+	.fa-search
+		color: $mainColor
