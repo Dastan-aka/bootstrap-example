@@ -9955,4 +9955,20 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.8;
 }
 
+.navbar--top {
+  padding: 2.25rem 0;
+}
+
+.navbar-nav__link {
+  font-family: var(--font), sans-serif;
+  font-size: 0.9375rem;
+  color: var(--main-color);
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 1.375rem;
+}
+.navbar-nav__link:hover {
+  color: var(--main-color);
+}
+
 /*# sourceMappingURL=main.css.map */
