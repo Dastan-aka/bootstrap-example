@@ -9934,4 +9934,25 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
+.top-line {
+  padding: 0.9375rem 0;
+  background-color: #f5f7fa;
+  border-bottom: 1px solid #e6e9ed;
+}
+.top-line a {
+  color: var(--main-color);
+  margin: 0 0.9375rem;
+}
+.top-line a:first-child {
+  margin-left: 0;
+}
+.top-line a:last-child {
+  margin-right: 0;
+}
+
+.social__link:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
 /*# sourceMappingURL=main.css.map */
